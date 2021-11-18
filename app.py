@@ -10,11 +10,11 @@ app = Flask(__name__)
 # 這裡定義服務存放的位置，也就是使用者連線的網址
 
 
-@app.route("/", methods=['GET'])
+#@app.route("/", methods=['GET'])
 # 這個服務對應的方法
-def basic_url():
+#def basic_url():
     # return 來回傳使用者要收到的資料
-    return '<h1>Hello Python!</h1><p>網站架在Heroku上</p>'
+    #return '<h1>Hello Python!</h1><p>網站架在Heroku上</p>'
 
 
 @app.route("/map/index", methods=['GET'])
